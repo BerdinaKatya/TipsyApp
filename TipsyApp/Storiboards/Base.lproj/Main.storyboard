@@ -40,7 +40,7 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" placeholder="0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W4l-zl-CUY">
+                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W4l-zl-CUY">
                                                         <rect key="frame" x="0.0" y="54" width="311" height="44"/>
                                                         <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -70,48 +70,46 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="B8j-5n-H5t">
-                                        <rect key="frame" x="18.333333333333343" y="55" width="306.66666666666663" height="40"/>
+                                        <rect key="frame" x="16" y="55" width="311" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Edm-JE-8t7">
-                                                <rect key="frame" x="0.0" y="0.0" width="61.666666666666664" height="40"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="5%">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
-                                                </buttonConfiguration>
+                                                <rect key="frame" x="0.0" y="0.0" width="62.666666666666664" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="tintColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="5%"/>
                                                 <connections>
                                                     <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uxU-wL-joF"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZw-0G-KAv">
-                                                <rect key="frame" x="81.666666666666657" y="0.0" width="61.666666666666657" height="40"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="10%">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
-                                                </buttonConfiguration>
+                                                <rect key="frame" x="82.666666666666671" y="0.0" width="63.000000000000014" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="tintColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="10%"/>
                                                 <connections>
                                                     <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5yy-Ag-GaZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FE5-Dl-5XW">
-                                                <rect key="frame" x="163.33333333333331" y="0.0" width="61.666666666666657" height="40"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="15%">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
-                                                </buttonConfiguration>
+                                                <rect key="frame" x="165.66666666666666" y="0.0" width="62.666666666666657" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="tintColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="15%"/>
                                                 <connections>
                                                     <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XoW-eE-QnR"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNA-kl-dPZ">
-                                                <rect key="frame" x="244.99999999999997" y="0.0" width="61.666666666666657" height="40"/>
-                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="20%">
-                                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
-                                                </buttonConfiguration>
+                                                <rect key="frame" x="248.33333333333329" y="0.0" width="62.666666666666657" height="40"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <color key="tintColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="20%">
+                                                    <color key="titleColor" red="0.57254901960000004" green="0.73725490199999999" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </state>
                                                 <connections>
                                                     <action selector="tipChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oqO-kH-23a"/>
                                                 </connections>
@@ -153,6 +151,8 @@
                                     <constraint firstItem="8xR-c9-sAW" firstAttribute="leading" secondItem="Ndo-xy-TbJ" secondAttribute="leading" id="4Sp-lX-INd"/>
                                     <constraint firstItem="fjd-B3-A7P" firstAttribute="leading" secondItem="Ndo-xy-TbJ" secondAttribute="leading" id="O1F-yE-Hfn"/>
                                     <constraint firstAttribute="trailing" secondItem="8xR-c9-sAW" secondAttribute="trailing" id="cNF-ay-bYD"/>
+                                    <constraint firstAttribute="trailing" secondItem="B8j-5n-H5t" secondAttribute="trailing" constant="16" id="eNg-pj-13B"/>
+                                    <constraint firstItem="B8j-5n-H5t" firstAttribute="leading" secondItem="Ndo-xy-TbJ" secondAttribute="leading" constant="16" id="kqp-n0-D5l"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="frr-VD-rV0">
@@ -168,6 +168,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="calculatePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0nV-de-UF0"/>
+                                    <segue destination="lbg-V2-EAK" kind="presentation" identifier="goToResult" modalPresentationStyle="fullScreen" id="Epm-NL-6Ev"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -191,22 +192,22 @@
                     <connections>
                         <outlet property="backgroundImage" destination="eRW-JP-bFz" id="GVQ-ub-XEu"/>
                         <outlet property="billTextField" destination="W4l-zl-CUY" id="QGg-HB-SCZ"/>
+                        <outlet property="fivePctButton" destination="Edm-JE-8t7" id="X73-sC-wuX"/>
                         <outlet property="fiveteenPctButton" destination="FE5-Dl-5XW" id="45P-gN-d6x"/>
                         <outlet property="orangeView" destination="cQq-vN-cHd" id="XqV-bT-3rJ"/>
                         <outlet property="splitNumberLable" destination="FKg-o8-bfb" id="vPX-jj-6d7"/>
                         <outlet property="tenPctButton" destination="RZw-0G-KAv" id="4N0-6l-TyS"/>
                         <outlet property="twentyPctButton" destination="rNA-kl-dPZ" id="qQn-mQ-BKw"/>
-                        <outlet property="zeroPctButton" destination="Edm-JE-8t7" id="X73-sC-wuX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="119.84732824427481" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="b5Z-Vy-Tsd">
             <objects>
-                <viewController id="lbg-V2-EAK" sceneMemberID="viewController">
+                <viewController id="lbg-V2-EAK" customClass="ResultViewController" customModule="TipsyApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="99p-yq-xzx">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -215,7 +216,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Split between 2 people, with 10% tip." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDn-gF-Gj0">
-                                <rect key="frame" x="25" y="288" width="343" height="52.666666666666686"/>
+                                <rect key="frame" x="25" y="229" width="343" height="52.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -230,10 +231,14 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Recalculate">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="25"/>
+                                    <color key="baseBackgroundColor" red="1" green="0.57647058819999997" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="recalculatePressed:" destination="lbg-V2-EAK" eventType="touchUpInside" id="zwt-8U-Gpm"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Jbt-6l-yBY">
-                                <rect key="frame" x="25" y="75" width="343" height="188"/>
+                                <rect key="frame" x="25" y="16" width="343" height="188"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tipsy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXq-ai-O3S">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="42"/>
@@ -253,13 +258,12 @@
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.00" placeholder="0.00" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dPl-y1-3DK">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PWM-OW-zpf">
                                                         <rect key="frame" x="0.0" y="54" width="303" height="44"/>
-                                                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                                                    </textField>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
@@ -292,6 +296,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="9Uv-BW-0tJ"/>
+                    <connections>
+                        <outlet property="orangeView" destination="XvN-9Z-h02" id="9fp-mV-PZ8"/>
+                        <outlet property="settingsLable" destination="KDn-gF-Gj0" id="Mhq-Ud-jIQ"/>
+                        <outlet property="totalLable" destination="PWM-OW-zpf" id="HtY-re-BrU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IGd-Ik-f6a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
