@@ -33,12 +33,21 @@ class CalculatorViewController: UIViewController {
     }
     
     override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print(tip)
+        
         billTextField.text = ""
         splitNumberLable.text = "2"
+        
         fivePctButton.isSelected = false
         tenPctButton.isSelected = false
         fiveteenPctButton.isSelected = false
         twentyPctButton.isSelected = false
+        
+        tip = 0
+        numberOfPeople = 2
+        billTotal = 0.0
+        finalResult = "0.0"
     }
 
     @IBAction func tipChanged(_ sender: UIButton) {
@@ -54,7 +63,6 @@ class CalculatorViewController: UIViewController {
         let buttonTitleMinusPersentSingn = String(buttonTitle.dropLast())
         let buttonTitleAsNumber = Double(buttonTitleMinusPersentSingn) ?? 0.0
         tip = buttonTitleAsNumber / 100
-        print(buttonTitle)
     }
     
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
@@ -84,5 +92,6 @@ class CalculatorViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
+    
 }
 
